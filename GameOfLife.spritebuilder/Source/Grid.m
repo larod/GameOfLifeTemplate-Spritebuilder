@@ -49,6 +49,7 @@ static const int GRID_COLUMNS = 10;
             _gridArray[i][j] = creature;
             
             // make creatures visible to test this method, remove this once we know we have filled the grid properly
+            x+=_cellWidth;
         }
         
         y += _cellHeight;
