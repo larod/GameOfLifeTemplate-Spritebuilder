@@ -59,7 +59,7 @@
 
 - (void)test
 {
-    CCLOG(@"Marker");
+   NSLog(@"Marker");
 }
 
 - (CCScene*) startScene
