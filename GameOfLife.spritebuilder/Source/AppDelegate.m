@@ -57,11 +57,6 @@
     return YES;
 }
 
-- (void)test
-{
-   NSLog(@"Marker");
-}
-
 - (CCScene*) startScene
 {
     return [CCBReader loadAsScene:@"MainScene"];
